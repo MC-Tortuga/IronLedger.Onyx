@@ -16,7 +16,7 @@ Traditional databases often struggle with high-volume financial balances due to 
 
 ### 2. Distributed Saga Orchestration
 Handling a payment involves multiple distinct steps: Order creation, Fund reservation, Third-party API integration, and final Ledger commitment.
-* **The Implementation:** Built using MassTransit State Machines to manage the distributed workflow.
+* **The Implementation:** Built using State Machines to manage the distributed workflow.
 * **Resiliency:** If an external provider fails, the Saga automatically triggers a compensating transaction to void the pending ledger transfer, ensuring the system remains consistent without manual intervention.
 
 ### 3. Transactional Outbox Pattern
