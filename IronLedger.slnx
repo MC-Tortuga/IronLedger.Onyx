@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="IronLedger.Api/IronLedger.Api.csproj" />
+  <Project Path="IronLedger.Core/IronLedger.Core.csproj" />
+  <Project Path="IronLedger.Infrastructure/IronLedger.Infrastructure.csproj" />
+  <Project Path="IronLedger.Worker/IronLedger.Worker.csproj" />
+</Solution>
